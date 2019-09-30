@@ -25,5 +25,7 @@ jobs:
         yarn install
         yarn build
         yarn deploy
+        test
+        lol
       env:
         CI: true
