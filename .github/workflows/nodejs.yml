@@ -20,7 +20,7 @@ jobs:
     - name: npm install, build, and deploy
       run: |
         git config user.name "Jasper Spahl"
-        git config user,email "jasperspahl@web.de"
+        git config user.email "jasperspahl@web.de"
         npm install yarn
         yarn install
         yarn build
