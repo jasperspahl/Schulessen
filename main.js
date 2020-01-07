@@ -8,15 +8,11 @@ function weekNumber(date){
 
 function getEssenUrl(date){
   const d = date||new Date();
-<<<<<<< HEAD
   let weeknum = weekNumber();
   if (weeknum < 10) {
       weeknum = `0${weeknum}`;
   }
   return `https://www.parzival-zentrum.de/wp-content/uploads/2018/01/speiseplan_${d.getFullYear()}kw${weeknum}_pz.pdf`;
-=======
-  return `https://www.parzival-zentrum.de/wp-content/uploads/2018/01/speiseplan_${d.getFullYear()}kw${weekNumber()}_pz.pdf`;
->>>>>>> 70a42897fd17a73611e01d2937424e3d19267e01
 }
 console.log(getEssenUrl());
 
